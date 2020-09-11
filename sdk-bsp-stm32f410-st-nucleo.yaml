@@ -97,6 +97,6 @@ features:
 - 按键，2 个，USER and RESET 。
 - 调试接口，板载 ST-LINK/V2-1 调试器。
 pkg_type: Board_Support_Packages
-pkg_vendor: RealThead
+pkg_vendor: RealThread
 pkg_version: 0.1.0
 yaml_version: 1
