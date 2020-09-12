@@ -91,11 +91,16 @@ docs:
   title: STM32F410RB Datasheet
 example_projects: []
 features:
-- MCU：STM32F410RBT6，主频 84MHz，128KB FLASH ，32KB RAM。
-- 常用外设
-- LED：3 个，USB communication (LD1), user LED (LD2), power LED (LD3) 。
-- 按键，2 个，USER and RESET 。
-- 调试接口，板载 ST-LINK/V2-1 调试器。
+- "MCU: STM32F410RBT6, 84MHz, 128KB FLASH, 32KB RAM"
+- "LED: 3, USB communication (LD1), user LED (LD2), power LED (LD3)"
+- "Buttons: USER and RESET"
+- "Interface: USB supports 3 different interfaces: virtual COM port, mass storage and debugging port"
+- "Debug: ST-LINK/V2-1"
+features_zh:
+- "MCU：STM32F410RBT6，主频 84MHz，128KB FLASH ，32KB RAM"
+- "LED：3 个，USB communication (LD1), user LED (LD2), power LED (LD3) "
+- "按键，2 个，USER and RESET "
+- "调试接口，板载 ST-LINK/V2-1 调试器"
 pkg_type: Board_Support_Packages
 pkg_vendor: RealThread
 pkg_version: 0.1.0
